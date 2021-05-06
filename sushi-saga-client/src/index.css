@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -20,7 +20,8 @@ body {
 
 .remaining {
   grid-area: rm;
-  margin: auto;
+  margin: 80px auto auto auto;
+  /* margin: auto; */
 }
 
 .plate {
@@ -81,4 +82,22 @@ body {
   height: 428px;
   width: 700px;
   margin: auto;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+h4 {
+  padding: 20px;
+  font-weight: 300;
+}
+
+button,
+input {
+  font-family: 'Raleway', sans-serif;
 }
